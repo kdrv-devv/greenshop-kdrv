@@ -19,6 +19,7 @@ export const useAxios = () => {
         "Content-Type": "application/json",
         "Accsess-Control-Allow-Origin": true,
         ...headers,
+        
       },
       params: {
         access_token: "64bebc1e2c6d3f056a8c85b7",
