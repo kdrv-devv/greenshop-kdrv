@@ -19,6 +19,7 @@ export const useAxios = () => {
         "Content-Type": "application/json",
         "Accsess-Control-Allow-Origin": true,
         ...headers,
+
         
       },
       params: {
